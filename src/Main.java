@@ -10,11 +10,11 @@ public class Main {
 
         instructorManager.addHomework(instructor1);
         instructorManager.showInfos(instructor1);
-        System.out.println("\n-------------------");
+        System.out.println("\n--------------------");
         UserManager userManager = new UserManager();
         userManager.signingIn(student1);
         userManager.signingIn(instructor1);
-        System.out.println("-------------------");
+        System.out.println("--------------------");
         studentManager.joinCourse(student1,new String[]{"Java Programlama"});
         studentManager.progressPercentage(student1);
         studentManager.showInfos(student1);
